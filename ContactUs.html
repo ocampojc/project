@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>WebDvtProject</title>
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="style.js" type="text/javascript">
+	</script>
+</head>
+<body>
+<div id="outer">
+	<div id="container">
+			<div id="logo">
+			<img height="100" width="200" src="img/banner.jpg">
+			</div>
+			
+			<div id="info">
+			<p>Free Shipping on over 200 items<br>
+			and all orders over 1000php.</p>
+			</div>
+			
+			<div id="banner">
+				<img class="bann" height="260" width="900" src="img/fl3.jpg">
+			</div>
+			
+		<div id='cssmenu'>
+			<ul>
+			   <li><a href='index.html'><span>Home</span></a></li>
+			   <li class='active has-sub'><a href='#'><span>Nike</span></a>
+				  <ul>
+					 <li class='has-sub'><a href='#'><span>Shoes</span></a>
+						<ul>
+						<li><a href='bball.html'><span>Basketball</span></a></li>
+						<li class='last'><a href='casual.html'><span>Casual</span></a></li>
+						</ul>
+					 </li>
+					 <li class='has-sub'><a href='equip.html'><span>Equipment</span></a>
+					 </li>
+					  <li class='has-sub'><a href='acc.html'><span>Accessories</span></a>
+					 </li>
+				  </ul>
+			   </li>
+			   <li><a href='adidas.html'><span>Adidas</span></a></li>
+			   <li><a href='jordan.html'><span>Jordan</span></a></li>
+			   <li><a href='ContactUs.html'><span>Contact</span></a></li>
+			</ul>
+			</div>
+			
+			<h2>Contact Us</h2>
+			<hr>
+			
+			<div id="links">
+				<table align="center">
+				<tr>
+					<td>Name:</td>
+					<td><input type="text" size="50" name="Name" required aria-required="true" pattern="[A-Za-z]+" title="FirstName LastName"/></td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td><input type="text" size="50" name="Address" required aria-required="true" pattern="[A-Za-z]+"/></td>
+				</tr>
+				
+				<td>Item:</td>
+					<td><input type="text" size="50" name="Item" required aria-required="true" pattern="[A-Za-z]+"/></td>
+				</tr>
+				<tr>
+					<td><p>Size:</p></td>
+					<td>
+						<script>
+							combo();
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td><p>Quantity:</p></td>
+					<td>
+						<script>
+							quant();
+						</script>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td><input type="text" size="50" name="number" maxlength="50" required aria-required="true" pattern="[0-9]+" /></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="e-mail" size="50" name="E-mail" placeholder="e.g. jco.ocampo13@yahoo.com" required aria-required="true"/></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" value="Submit"></td>
+				</tr>
+			</div>
+			</table>
+			
+			
+			<footer>
+			<p>Copyright 2016 - Web Development</p>
+			</footer>
+	</div>
+</div>
+</body>
+</html>
